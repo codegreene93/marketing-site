@@ -1,7 +1,8 @@
+import scaleImg from "public/scale.jpg"
+import Hero from "@/components/hero";
 
-
-export default function ScalePage() {
+export default function Reliability() {
     return (
-        <div>Scale Page</div>
+        <Hero title="Scale your business with us" imageAlt={"warehouse"} imageData={scaleImg} />
     )
 }
